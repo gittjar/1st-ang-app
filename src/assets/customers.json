@@ -22,5 +22,11 @@
             "name": "Tina Adams",
             "city": "Seattle",
             "orderTotal": 15.99
+      },
+      {
+            "id": 5,
+            "name": "Testi Asiakas",
+            "city": "Hyvinkää",
+            "orderTotal": 215.99
       }
 ]

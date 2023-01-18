@@ -93,6 +93,16 @@
               "**/node_modules/**"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "routing:build:production",
+            "firebaseProject": "first-ang-application",
+            "firebaseHostingSite": "first-ang-application"
+          }
         }
       }
     },
@@ -120,5 +130,8 @@
     "@schematics/angular:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

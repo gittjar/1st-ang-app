@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "first-ang-application": {
+      "hosting": {
+        "routing": [
+          "first-ang-application"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "first-ang-application"
+  }
+}
